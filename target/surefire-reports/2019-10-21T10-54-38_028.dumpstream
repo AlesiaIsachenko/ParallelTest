@@ -1,0 +1,36 @@
+# Created at 2019-10-21T10:54:38.029
+��� 21, 2019 10:54:38 AM org.junit.jupiter.engine.discovery.MethodSelectorResolver resolve
+
+# Created at 2019-10-21T10:54:38.030
+WARNING: Possible configuration error: method [public void SearchRepeatedTest.searchText1()] resulted in multiple TestDescriptors [org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor, org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor]. This is typically the result of annotating a method with multiple competing annotations such as @Test, @RepeatedTest, @ParameterizedTest, @TestFactory, etc.
+
+# Created at 2019-10-21T10:54:38.046
+��� 21, 2019 10:54:38 AM org.junit.jupiter.engine.discovery.MethodSelectorResolver resolve
+
+# Created at 2019-10-21T10:54:38.047
+WARNING: Possible configuration error: method [public void SearchRepeatedTest.searchText1()] resulted in multiple TestDescriptors [org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor, org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor]. This is typically the result of annotating a method with multiple competing annotations such as @Test, @RepeatedTest, @ParameterizedTest, @TestFactory, etc.
+
+# Created at 2019-10-21T10:54:41.819
+��� 21, 2019 10:54:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+# Created at 2019-10-21T10:54:41.842
+INFO: Detected dialect: W3C
+
+# Created at 2019-10-21T10:54:41.853
+��� 21, 2019 10:54:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+# Created at 2019-10-21T10:54:41.856
+INFO: Detected dialect: W3C
+
+# Created at 2019-10-21T10:54:41.984
+��� 21, 2019 10:54:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+# Created at 2019-10-21T10:54:42.036
+INFO: Detected dialect: W3C
+
+# Created at 2019-10-21T10:54:42.043
+��� 21, 2019 10:54:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+# Created at 2019-10-21T10:54:42.054
+INFO: Detected dialect: W3C
+

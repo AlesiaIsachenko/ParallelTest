@@ -1,14 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Search2Test
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.828 s <<< FAILURE! - in Search2Test
-searchText3  Time elapsed: 1.827 s  <<< ERROR!
-org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for title to be "selenium - ĞŸĞ¾Ğ¸ÑĞº Ğ² Google". Current title: "selenium - Ïîèñê â Google" (tried for 2 second(s) with 500 milliseconds interval)
-Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
-System info: host: 'ALESIAISACHENKO', ip: '192.168.1.150', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51862}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ca65f242ded91666309ca165aaaca5c8
-	at Search2Test.searchText3(Search2Test.java:31)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.111 s - in Search2Test
