@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import static org.openqa.selenium.support.ui.ExpectedConditions.urlContains;
 
 public class Search3Test extends TestBase{
-    @Tag("123")
+    @Tag("smoke")
     @Test
     public void searchText1() {
         driver.navigate().to("https://www.google.com/?hl=ru");
@@ -18,6 +18,7 @@ public class Search3Test extends TestBase{
     }
 
     @Test
+    @Tag("regress")
     public void searchText2() {
         driver.navigate().to("https://www.google.com/?hl=ru");
         WebElement element = driver.findElement(By.cssSelector("[name=q]"));

@@ -10,7 +10,8 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.urlContains;
 
 public class SearchRepeatedTest extends TestBase{
     @Test
-    @Tag("123")
+    @Tag("smoke")
+    @Tag("regress")
     @RepeatedTest(2)
     public void searchText1() {
         driver.navigate().to("https://www.google.com/?hl=ru");

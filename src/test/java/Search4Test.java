@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.*;
 import org.junit.jupiter.params.provider.ValueSource;
@@ -10,6 +11,7 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.urlContains;
 
 public class Search4Test extends TestBase{
 
+    @Tag("regress")
     @ParameterizedTest
     @ValueSource(strings ={"selenium","Java"})
     void searchText1(String argument) {
