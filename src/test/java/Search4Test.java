@@ -15,18 +15,16 @@ public class Search4Test extends TestBase{
     @ParameterizedTest
     @ValueSource(strings ={"selenium","Java"})
     void searchText1(String argument) {
-        driver.navigate().to("https://www.google.com/?hl=ru");
-        WebElement element = driver.findElement(By.cssSelector("[name=q]"));
-        element.sendKeys(argument + "\n");
+        driver.navigate().to(baseUrl);
+        findText(argument);
         wait.until(urlContains(argument));
     }
 
     @Test
     @Disabled
     void searchText2() {
-        driver.navigate().to("https://www.google.com/?hl=ru");
-        WebElement element = driver.findElement(By.cssSelector("[name=q]"));
-        element.sendKeys("selenium" + "\n");
+        driver.navigate().to(baseUrl);
+        findText("selenium");
         wait.until(urlContains("selenium"));
 
     }
