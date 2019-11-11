@@ -22,6 +22,16 @@ public class Search3Test extends TestBase{
         driver.navigate().to(baseUrl);
         findText("selenium");
         wait.until(urlContains("selenium"));
-	}
-
+<<<<<<< HEAD
+        WebElement element = driver.findElement(By.cssSelector("[name=qa]"));
+=======
+>>>>>>> master
+    }
+    @Test
+    @Tag("regress")
+    public void searchText3() {
+        driver.navigate().to(baseUrl);
+        findText("selenium");
+        wait.until(urlContains("selenium"));
+    }
 }
